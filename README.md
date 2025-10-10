@@ -63,7 +63,7 @@ This repository contains two key components created to demonstrate this algorith
 
 ### 1\. Interactive Web Visualization (TSP Demo)
 
-**[➡️ Live Demo](https://www.google.com/search?q=http://127.0.0.1:5500/index.html)** *(Замените эту ссылку на реальную после публикации)*
+**[➡️ Live Demo](https://iliyasalve.github.io/aco-routing-exploration/)** 
 
 This project includes an interactive, web-based tool built with **HTML, CSS, and JavaScript**.
 
