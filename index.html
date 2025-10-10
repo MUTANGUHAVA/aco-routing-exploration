@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-key="pageTitle">Interactive Ant Colony Optimization Algorithm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-container">
+        <h1 data-key="mainHeader">Ant Colony Optimization (ACO) Algorithm</h1>
+        <div class="lang-switcher">
+            <button class="lang-btn" data-lang="en">English</button>
+            <button class="lang-btn" data-lang="ru">Русский</button>
+            <button class="lang-btn" data-lang="fr">Français</button>
+        </div>
+    </div>
+    
+    <div class="description">
+        <p data-key="algoDescription">...</p>
+    </div>
+
+    <div class="instructions">
+        <h2 data-key="instructionsHeader">How to Use</h2>
+        <ol>
+            <li data-key="instruction1">...</li>
+            <li data-key="instruction2">...</li>
+            <li data-key="instruction3">...</li>
+            <li data-key="instruction4">...</li>
+        </ol>
+    </div>
+
+    <div class="main-container">
+        <canvas id="acoCanvas"></canvas>
+        <div id="controls">
+            <h2 data-key="paramsHeader">Parameters</h2>
+            <div class="control-group">
+                <div class="label-wrapper"><label for="numAnts" data-key="numAntsLabel">...</label><span class="tooltip-icon" data-key="numAntsTooltip">?</span></div>
+                <input type="range" id="numAnts" min="1" max="200" value="50"><span id="numAntsValue">50</span>
+            </div>
+            <div class="control-group">
+                <div class="label-wrapper"><label for="alpha" data-key="alphaLabel">...</label><span class="tooltip-icon" data-key="alphaTooltip">?</span></div>
+                <input type="range" id="alpha" min="0.1" max="5" step="0.1" value="1"><span id="alphaValue">1.0</span>
+            </div>
+            <div class="control-group">
+                <div class="label-wrapper"><label for="beta" data-key="betaLabel">...</label><span class="tooltip-icon" data-key="betaTooltip">?</span></div>
+                <input type="range" id="beta" min="0.1" max="10" step="0.1" value="2"><span id="betaValue">2.0</span>
+            </div>
+            <div class="control-group">
+                <div class="label-wrapper"><label for="evaporation" data-key="evaporationLabel">...</label><span class="tooltip-icon" data-key="evaporationTooltip">?</span></div>
+                <input type="range" id="evaporation" min="0.01" max="0.5" step="0.01" value="0.1"><span id="evaporationValue">0.10</span>
+            </div>
+            <div class="control-group">
+                <div class="label-wrapper"><label for="speed" data-key="speedLabel">...</label><span class="tooltip-icon" data-key="speedTooltip">?</span></div>
+                <input type="range" id="speed" min="1" max="100" value="50"><span id="speedValue">50</span>
+            </div>
+            
+            <div class="buttons-wrapper">
+                <button id="startButton" data-key="startButton">Start</button>
+                <button id="resetButton" data-key="resetButton">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="results-container">
+        <div id="info">
+            <h3 data-key="resultsHeader">Results</h3>
+            <p><strong data-key="infoPath">Best path found:</strong> <span id="bestPathLength">-</span></p>
+            <p><strong data-key="infoSequence">Path sequence:</strong> <span id="bestPathSequence">-</span></p>
+            <p><strong data-key="infoIteration">Current Iteration:</strong> <span id="iterationCount">0</span></p>
+            <p><strong data-key="infoBestIteration">Found at iteration:</strong> <span id="bestIterationCount">-</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
